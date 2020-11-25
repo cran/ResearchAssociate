@@ -1,0 +1,6 @@
+
+import("rentrez")
+importFrom("utils", "write.csv")
+importFrom("stats", "na.omit")
+export(Get.Publication.info)
+
