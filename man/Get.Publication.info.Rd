@@ -2,7 +2,7 @@
 % Please edit documentation in R/PubFinder.R
 \name{Get.Publication.info}
 \alias{Get.Publication.info}
-\title{Retrieving Publications from PubMed Database Based on User Query}
+\title{Retrieve all publications related to user-defined search query from PubMed database}
 \usage{
 Get.Publication.info(
   Searchquery,
@@ -14,7 +14,7 @@ Get.Publication.info(
 \arguments{
 \item{Searchquery}{input a text query for example "Bioinformatics", "Bioinformatics or machine learning", "Cancer and drug targets"}
 
-\item{Publicationinfo}{information to be returned from PubMed such paper title, last author, journal or number of citations}
+\item{Publicationinfo}{information to be returned from pubmed such paper title, last author, journal or number of citations}
 
 \item{Output}{path to save file containig results returened by the function.}
 }

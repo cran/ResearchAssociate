@@ -1,4 +1,10 @@
-e9cef8b8ac2cad487538f2737ffd9efc *DESCRIPTION
-ebd941cdf76fcca09543100304d7a7a8 *NAMESPACE
+5452415837eea25d010d35586e9e4745 *DESCRIPTION
+d4432c6828d4e158fc5a979731b81088 *NAMESPACE
+3aff7331b6de779aa5d69d068069e9e6 *R/GetAbstracts.R
+ec11b74cbf3ec67a2f4a6318d77a8d60 *R/PlotPublications.R
 62505f75146ad31a4e82ea6982a26fcf *R/PubFinder.R
-203b45bfc2317adf153587c4d788dfdd *man/Get.Publication.info.Rd
+c7bd236e907e2683e37960c7c4dc3de3 *man/Get.Abstracts.Rd
+5cc1eb5ceb6fe959f6f729662c2fdf9c *man/Get.Publication.info.Rd
+f1a8e483222a7b17af0da594ff8a87c7 *man/Plot.TopJournals.Rd
+915ecdb0b6db9ab868d649abb8803eba *man/Plot.TopPapers.Rd
+53d6f865a47eb8d76acf0bac52d3cbce *man/Plot.papertype.Rd
