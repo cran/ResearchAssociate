@@ -1,6 +1,6 @@
 Package: ResearchAssociate
 Title: Retrieving Publications from PubMed Database Based on User Query
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(person("Mohamed", "Soudy", email = "MohmedSoudy2009@gmail.com", role=c("aut", "cre")), person("Ali", "Mostafa", email = "ali.mo.anwar@std.agr.cu.edu.eg", role = "aut"))
 Author: Mohamed Soudy [aut, cre],
   Ali Mostafa [aut]
@@ -13,5 +13,5 @@ RoxygenNote: 7.1.1
 Imports: rentrez, XML , plyr, ggplot2
 NeedsCompilation: no
 Repository: CRAN
-Packaged: 2020-12-09 14:58:57 UTC; RSH
-Date/Publication: 2020-12-09 15:30:02 UTC
+Packaged: 2020-12-14 12:58:32 UTC; RSH
+Date/Publication: 2020-12-15 16:40:05 UTC

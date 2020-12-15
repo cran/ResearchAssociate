@@ -26,7 +26,7 @@ Plot.TopPapers <- function(Publications, Top = 10, directorypath  = NULL)
                                                             hjust=-0.5, color="steelblue", size=5) + xlab("") +
     ylab("Number of citations") + theme_classic() + theme(axis.text.x = element_text(face = "bold.italic", size = 0.5, hjust = 1)) +
     coord_flip()
-  TopCited
+  plot(TopCited)
   if(!is.null(directorypath))
   {
     ggsave(plot = TopCited, filename = paste0(directorypath, "/", "Top ", Top, " Cited papers.jpeg"),device = "jpeg" ,width = 21, height = 10, dpi = 300)
@@ -59,7 +59,7 @@ Plot.TopJournals <- function(Publications, Top = 10, directorypath  = NULL)
                                                             vjust=-1, color="steelblue", size=3.5) + xlab("Journal") +
     ylab("Number of citations") + theme_classic() + theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-  Top.cited
+  plot(Top.cited)
   if(!is.null(directorypath))
   {
     ggsave(plot = Top.cited, filename = paste0(directorypath, "/", "Top ", Top, " Cited journals.jpeg"),device = "jpeg" ,width = 8, height = 7, dpi = 300)
@@ -87,7 +87,7 @@ Plot.papertype <- function(Publications, directorypath = NULL)
                                                             vjust=-1, color="steelblue", size=3.5) + xlab("Publication type") +
     ylab("Number of publications") + theme_classic() + theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-  Pub.type
+  plot(Pub.type)
 
   if(!is.null(directorypath))
   {
